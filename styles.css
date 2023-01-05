@@ -1,0 +1,203 @@
+
+#title {
+  background-color: #ff4c68;
+}
+h1
+{
+  font-family: "Montserrat", sans-serif; font-size: 3rem; line-height: 1.5;
+  color: white;
+}
+a
+{
+  font-family: 'Ubuntu', sans-serif;
+
+}
+.container-fluid
+{
+  padding: 3% 15%;
+}
+.navbar-brand
+{
+  font-size: 2rem;
+  color: white;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+.phone{
+  transform: rotate(38deg);
+  position: absolute;
+  width: 320px;
+  height: 550px;
+}
+.navbar
+{
+  padding-bottom: 4.5rem;
+}
+.nav-item
+{
+  padding-right: 2rem;
+}
+.downloadbutton
+{
+  margin: 5% 3% 5% 0%;
+}
+.featuresnew
+{
+  text-align: center;
+}
+p
+{
+color: #8f8f8f;
+}
+/* icon
+{
+  size: 19px;
+} */
+#features
+{
+  padding: 15px 15;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+.ic:hover
+{
+  color: #ff4c68;
+  margin-bottom: 5rem;
+}
+.icons
+{
+color: #ef8172;
+margin-bottom: 1rem;
+}
+h2
+{
+  font-family: "Montserrat", sans-serif; font-size: 2.5rem; line-height: 1.5;
+  color: white;
+  font-weight: bolder;
+}
+.testimonialsnew
+{
+  text-align: center;
+  padding: 15px 10%;
+
+}
+#testimonials{
+  background-color: Tomato;
+}
+.imagestestimonial
+{
+
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+}
+#press{
+  background-color: Tomato;
+}
+.testimonialheading
+{
+  padding-top: 50px;
+  padding-right: 180px;
+  padding-left: 180px;
+}
+.pressimg
+{
+  text-align: center;
+}
+.pressimage
+{
+  width: 150px;
+  height: 70px;
+  padding-right: 20px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  margin-top: 170px;
+}
+.pricingheading
+{
+  color: black;
+  font-weight: bolder;
+  font-size: 40px;
+
+}
+.pricingdetails
+{
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 100px;
+}
+.price
+{
+  padding-top: 10px;
+}
+
+#cta
+{
+  background-color: #ff4c68;
+}
+.lastsection
+{
+  padding: 250px;
+  text-align: center;
+}
+.lastheading
+{
+padding-bottom: 20px;
+color: white;
+font-weight: 900;
+font-size: 56px;
+text-align: center;
+}
+.footerdiv
+{
+  text-align: center;
+  padding: 50px;
+}
+.socials
+{
+  padding-right: 8px;
+}
+.socials:hover
+{
+  color: #ff4c68;
+}
+.icons2:hover
+{
+  color: #ff4c68;
+}
+@media (max-width: 1028px)
+{
+  .phone
+  {
+    position: static;
+    transform: rotate(0);
+  }
+  #title
+  {
+    text-align: center;
+  }
+  .testimonialheading
+  {
+    font-size: 1rem;
+    padding: 0;
+  }
+  .pricingdetails
+  {
+
+    padding-right: 40px;
+  }
+  #cta
+  {
+    text-align: center;
+  }
+  .lastheading
+  {
+    font-size: 35px;
+  }
+  .lastsection
+  {
+    padding: 50px;
+  }
+}
